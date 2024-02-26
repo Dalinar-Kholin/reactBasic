@@ -23,7 +23,7 @@ function App() {
   ];
   const skills: string[] = [
     "c",
-    "golang <3",
+    "golang <3 <3",
     "react?",
     "being useless",
     "no nie wiem",
