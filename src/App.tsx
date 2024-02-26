@@ -15,6 +15,7 @@ function App() {
     value: string;
   }
 
+  const about = "about me";
   const contactData: ContactInfo[] = [
     { type: "email.svg", value: "gamblebeliever@gmail.com" },
     { type: "web.svg", value: "www.mojafajnastrona.pl" },
@@ -49,8 +50,8 @@ function App() {
         {contactData.map((contact) => (
           <Contact icon={contact.type} content={contact.value} />
         ))}
-        <h1>About me</h1>
-        <p>lorem ipus i takie sprawy</p>
+        <Name name={about} />
+        <p>{disc}</p>
         <SkillBox name={"skills"} skills={skills} />
         <SkillBox name={"języki"} skills={language} />
       </div>
